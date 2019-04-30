@@ -16,12 +16,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //        setContentView(R.layout.linear_layout);
         //        setContentView(R.layout.frame_layout);
-                setContentView(R.layout.relative_layout);
+//                setContentView(R.layout.relative_layout);
         //        setContentView(R.layout.constraint_layout);
-//        setContentView(R.layout.table_layout)
-//        InsertRow("produk A", "2")
-//        InsertRow("produk B", "4")
-
+        setContentView(R.layout.table_layout)
+        InsertRow("produk A", "2")
+        InsertRow("produk B", "4")
+        InsertRow("produk A", "2")
+        InsertRow("produk B", "4")
     }
 
     fun InsertRow(P1: String, P2: String) {
